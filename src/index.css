@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Raleway", sans-serif;
+  --font-body: "Open Sans", sans-serif;
+  --font-mono: "PT Sans", sans-serif;
+  --font-accent: "Oswald", sans-serif;
+
+  --color-ink: #292d33;
+  --color-ink-60: rgba(41, 45, 51, 0.65);
+  --color-ink-40: rgba(41, 45, 51, 0.45);
+  --color-teal: #89d0ca;
+  --color-paper: #ffffff;
+  --color-paper-alt: #f2f2f2;
+  --color-mint: #dff5f0;
+  --color-hairline: rgba(41, 45, 51, 0.12);
+}
+
+body {
+  margin: 0;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
