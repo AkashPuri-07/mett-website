@@ -5,14 +5,14 @@ export default function Hero() {
 
   return (
     <header className="bg-teal">
-      <div className="relative grid grid-cols-1 md:grid-cols-[1.1fr_0.9fr] items-center gap-12 max-w-[1080px] mx-auto px-8 pt-[160px] pb-[100px]">
+      <div className="relative grid grid-cols-1 md:grid-cols-[0.65fr_1.35fr] items-center gap-12 max-w-[1080px] mx-auto px-8 pt-[160px] pb-[100px]">
       <div>
         <div className="flex items-center gap-2.5 text-[11px] text-ink font-mono font-bold uppercase tracking-[0.1em] mb-7">
           <span className="w-6 h-px bg-ink" />
           An Independent Forum for Higher Education
         </div>
 
-        <h1 className="font-display font-bold leading-[1.05] tracking-[-0.01em] text-ink text-[clamp(24px,4.6vw,64px)] max-w-[920px]">
+        <h1 className="font-display font-bold leading-[1.05] tracking-[-0.01em] text-ink text-[clamp(18px,2.6vw,36px)] max-w-[920px]">
           <span className="whitespace-nowrap">Academia &amp; Industry,</span>
           <br />
           at one table.
@@ -37,15 +37,29 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="relative h-[320px] md:h-[520px] -order-1 md:order-none mt-5 md:mt-0 overflow-hidden">
-        <img
-          src="/images/hero.webp"
-          className="w-full h-full object-cover"
-          alt="Academic and industry leaders in a roundtable discussion"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-ink/0 from-60% to-ink/45" />
-        <div className="absolute bottom-5 left-5 z-10 text-[11px] font-mono uppercase tracking-[0.06em] text-white">
-          Roundtable in session
+      <div className="relative -order-1 md:order-none mt-5 md:mt-0 flex flex-col gap-2">
+        <div className="relative w-full overflow-hidden shrink-0">
+          <img
+            src="/images/hero-chief-guest.webp"
+            className="w-full h-auto block"
+            alt="Chandrakant Dada Patil, Chief Guest, addressing the gathering"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-ink/0 from-60% to-ink/45" />
+          <div className="absolute bottom-4 left-3 right-3 z-10 text-[10px] font-mono uppercase tracking-[0.06em] text-white">
+            Chief Guest
+          </div>
+        </div>
+
+        <div className="relative w-full overflow-hidden">
+          <img
+            src="/images/hero-organisers.webp"
+            className="w-full h-auto block"
+            alt="The M·E·T·T organising team on stage"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-ink/0 from-60% to-ink/45" />
+          <div className="absolute bottom-4 left-3 right-3 z-10 text-[10px] font-mono uppercase tracking-[0.06em] text-white">
+            Organisers
+          </div>
         </div>
       </div>
 

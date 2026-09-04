@@ -4,6 +4,7 @@ import Membership from './components/Membership'
 import WhatWeDo from './components/WhatWeDo'
 import HowWeWork from './components/HowWeWork'
 import Focus from './components/Focus'
+import PastConvenings from './components/PastConvenings'
 import Leadership from './components/Leadership'
 import Footer from './components/Footer'
 
@@ -16,6 +17,7 @@ function App() {
       <WhatWeDo />
       <HowWeWork />
       <Focus />
+      <PastConvenings />
       <Leadership />
       <Footer />
     </>
