@@ -6,7 +6,7 @@ export default function Membership() {
       <div className="max-w-[1080px] mx-auto px-8">
         <Reveal className="flex justify-between items-end mb-16 flex-wrap gap-4">
           <h2 className="font-display font-normal text-[28px] sm:text-[36px] lg:text-[42px] text-ink">
-            Our Membership
+            Our Members
           </h2>
           <span className="text-[12px] text-ink-40 font-mono uppercase tracking-[0.06em]">
             01 / Who
